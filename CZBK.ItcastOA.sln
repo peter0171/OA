@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZBK.ItcastOA.Model", "CZBK.ItcastOA.Model\CZBK.ItcastOA.Model.csproj", "{8428BEF2-9466-455A-A468-85989F22F078}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZBK.ItcastOA.DAL", "CZBK.ItcastOA.DAL\CZBK.ItcastOA.DAL.csproj", "{83E09F9A-2399-4E68-B832-3D8D6DB9AC87}"
@@ -16,6 +18,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZBK.ItcastOA.DALFactory", "CZBK.ItcastOA.DALFactory\CZBK.ItcastOA.DALFactory.csproj", "{5B0F24F8-0C02-465E-9D48-74324A286B26}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZBK.ItcastOA.WebApp", "CZBK.ItcastOA.WebApp\CZBK.ItcastOA.WebApp.csproj", "{346BCA87-632E-43E9-A1F0-16671ADB1560}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{9B0103E4-B048-404A-ACCB-F47B100174C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CZBK.ItcastOA.SpringNet", "CZBK.ItcastOA.SpringNet\CZBK.ItcastOA.SpringNet.csproj", "{0FD18E80-7E18-4B5F-A7FD-9C7FE94EBE2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,8 +61,15 @@ Global
 		{346BCA87-632E-43E9-A1F0-16671ADB1560}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{346BCA87-632E-43E9-A1F0-16671ADB1560}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{346BCA87-632E-43E9-A1F0-16671ADB1560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FD18E80-7E18-4B5F-A7FD-9C7FE94EBE2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD18E80-7E18-4B5F-A7FD-9C7FE94EBE2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD18E80-7E18-4B5F-A7FD-9C7FE94EBE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD18E80-7E18-4B5F-A7FD-9C7FE94EBE2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FD18E80-7E18-4B5F-A7FD-9C7FE94EBE2D} = {9B0103E4-B048-404A-ACCB-F47B100174C5}
 	EndGlobalSection
 EndGlobal
