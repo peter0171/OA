@@ -1,0 +1,40 @@
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\CZBK.ItcastOA.IDAL.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\CZBK.ItcastOA.IDAL.pdb
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\CZBK.ItcastOA.Model.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\EntityFramework.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\CZBK.ItcastOA.Model.pdb
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\EntityFramework.xml
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\obj\Debug\CZBK.ItcastOA.IDAL.csprojResolveAssemblyReference.cache
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\obj\Debug\CZBK.ItcastOA.IDAL.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\obj\Debug\CZBK.ItcastOA.IDAL.pdb
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\CZBK.ItcastOA.IDAL.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\CZBK.ItcastOA.IDAL.pdb
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\CZBK.ItcastOA.Model.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\EntityFramework.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\CZBK.ItcastOA.Model.pdb
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\EntityFramework.xml
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\obj\Debug\CZBK.ItcastOA.IDAL.csprojResolveAssemblyReference.cache
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\obj\Debug\CZBK.ItcastOA.IDAL.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\obj\Debug\CZBK.ItcastOA.IDAL.pdb
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\CZBK.ItcastOA.IDAL.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\CZBK.ItcastOA.IDAL.pdb
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\CZBK.ItcastOA.Model.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\EntityFramework.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\CZBK.ItcastOA.Model.pdb
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\EntityFramework.xml
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\obj\Debug\CZBK.ItcastOA.IDAL.csprojResolveAssemblyReference.cache
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\obj\Debug\CZBK.ItcastOA.IDAL.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\obj\Debug\CZBK.ItcastOA.IDAL.pdb
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\CZBK.ItcastOA.IDAL.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\CZBK.ItcastOA.IDAL.pdb
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\CZBK.ItcastOA.Model.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\EntityFramework.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\CZBK.ItcastOA.Model.pdb
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\EntityFramework.xml
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\obj\Debug\CZBK.ItcastOA.IDAL.csprojResolveAssemblyReference.cache
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\obj\Debug\CZBK.ItcastOA.IDAL.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.IDAL\obj\Debug\CZBK.ItcastOA.IDAL.pdb

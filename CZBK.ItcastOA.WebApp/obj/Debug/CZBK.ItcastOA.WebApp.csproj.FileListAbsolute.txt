@@ -1,0 +1,201 @@
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.WebApp.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.WebApp.pdb
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\Antlr3.Runtime.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\EntityFramework.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\Newtonsoft.Json.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Net.Http.Formatting.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Http.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Http.WebHost.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Mvc.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Optimization.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Providers.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Razor.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.Deployment.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.Razor.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\WebGrease.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\EntityFramework.xml
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\Newtonsoft.Json.xml
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Net.Http.Formatting.xml
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Http.xml
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Http.WebHost.xml
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Mvc.xml
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Razor.xml
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.xml
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.Deployment.xml
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.Razor.xml
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\EntityFramework.resources.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Http.resources.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Providers.resources.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\obj\Debug\CZBK.ItcastOA.WebApp.csprojResolveAssemblyReference.cache
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\obj\Debug\CZBK.ItcastOA.WebApp.dll
+D:\传智讲课\0924班\OA\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\obj\Debug\CZBK.ItcastOA.WebApp.pdb
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.WebApp.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.WebApp.pdb
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\Antlr3.Runtime.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\EntityFramework.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\Newtonsoft.Json.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Net.Http.Formatting.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Http.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Http.WebHost.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Mvc.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Optimization.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Providers.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Razor.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.Deployment.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.Razor.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\WebGrease.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\EntityFramework.xml
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\Newtonsoft.Json.xml
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Net.Http.Formatting.xml
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Http.xml
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Http.WebHost.xml
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Mvc.xml
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Razor.xml
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.xml
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.Deployment.xml
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.Razor.xml
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\EntityFramework.resources.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Http.resources.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Providers.resources.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\obj\Debug\CZBK.ItcastOA.WebApp.csprojResolveAssemblyReference.cache
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\obj\Debug\CZBK.ItcastOA.WebApp.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\obj\Debug\CZBK.ItcastOA.WebApp.pdb
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.BLL.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.IBLL.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.Model.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.IDAL.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.DALFactory.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.DAL.dll
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.BLL.pdb
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.IBLL.pdb
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.Model.pdb
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.IDAL.pdb
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.DALFactory.pdb
+D:\传智讲课\0924班\OA\第一天\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.DAL.pdb
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.WebApp.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.WebApp.pdb
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\Antlr3.Runtime.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.BLL.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.IBLL.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.Model.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\EntityFramework.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\Newtonsoft.Json.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Net.Http.Formatting.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Http.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Http.WebHost.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Mvc.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Optimization.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Providers.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Razor.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.Deployment.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.Razor.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\WebGrease.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.IDAL.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.DALFactory.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.DAL.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.BLL.pdb
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.IBLL.pdb
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.Model.pdb
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\EntityFramework.xml
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\Newtonsoft.Json.xml
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Net.Http.Formatting.xml
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Http.xml
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Http.WebHost.xml
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Mvc.xml
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Razor.xml
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.xml
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.Deployment.xml
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.Razor.xml
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.IDAL.pdb
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.DALFactory.pdb
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.DAL.pdb
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\EntityFramework.resources.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Http.resources.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Providers.resources.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\obj\Debug\CZBK.ItcastOA.WebApp.csprojResolveAssemblyReference.cache
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\obj\Debug\CZBK.ItcastOA.WebApp.dll
+D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\obj\Debug\CZBK.ItcastOA.WebApp.pdb
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.WebApp.dll.config
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.WebApp.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.WebApp.pdb
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\Antlr3.Runtime.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.BLL.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.IBLL.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.Model.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\EntityFramework.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\Newtonsoft.Json.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Net.Http.Formatting.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Http.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Http.WebHost.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Mvc.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Optimization.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Providers.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Razor.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.Deployment.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.Razor.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\WebGrease.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.IDAL.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.DALFactory.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.DAL.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.BLL.pdb
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.IBLL.pdb
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.Model.pdb
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\EntityFramework.xml
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\Newtonsoft.Json.xml
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Net.Http.Formatting.xml
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Http.xml
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Http.WebHost.xml
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Mvc.xml
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.Razor.xml
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.xml
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.Deployment.xml
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\System.Web.WebPages.Razor.xml
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.IDAL.pdb
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.DALFactory.pdb
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\CZBK.ItcastOA.DAL.pdb
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\EntityFramework.resources.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Http.resources.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Providers.resources.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\obj\Debug\CZBK.ItcastOA.WebApp.csprojResolveAssemblyReference.cache
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\obj\Debug\CZBK.ItcastOA.WebApp.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.WebApp\obj\Debug\CZBK.ItcastOA.WebApp.pdb

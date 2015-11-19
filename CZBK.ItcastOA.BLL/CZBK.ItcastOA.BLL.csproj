@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{729F16D1-5319-4530-8361-753C5DABD00B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CZBK.ItcastOA.BLL</RootNamespace>
+    <AssemblyName>CZBK.ItcastOA.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserInfoService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CZBK.ItcastOA.DALFactory\CZBK.ItcastOA.DALFactory.csproj">
+      <Project>{5b0f24f8-0c02-465e-9d48-74324a286b26}</Project>
+      <Name>CZBK.ItcastOA.DALFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CZBK.ItcastOA.DAL\CZBK.ItcastOA.DAL.csproj">
+      <Project>{83e09f9a-2399-4e68-b832-3d8d6db9ac87}</Project>
+      <Name>CZBK.ItcastOA.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CZBK.ItcastOA.IBLL\CZBK.ItcastOA.IBLL.csproj">
+      <Project>{d6304bdd-1096-4dc3-8a15-ce255b8a1bbf}</Project>
+      <Name>CZBK.ItcastOA.IBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CZBK.ItcastOA.IDAL\CZBK.ItcastOA.IDAL.csproj">
+      <Project>{9781f9ae-704a-4ee0-92d6-6a64518fc3e2}</Project>
+      <Name>CZBK.ItcastOA.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CZBK.ItcastOA.Model\CZBK.ItcastOA.Model.csproj">
+      <Project>{8428bef2-9466-455a-a468-85989f22f078}</Project>
+      <Name>CZBK.ItcastOA.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

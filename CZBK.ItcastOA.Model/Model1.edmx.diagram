@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="38639b506e3a4aa591ee5f325d6e102d" Name="关系图1" ZoomLevel="85">
+        <EntityTypeShape EntityType="OAModel.UserInfo" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OAModel.ActionInfo" Width="1.5" PointX="0.75" PointY="7.75" />
+        <EntityTypeShape EntityType="OAModel.Books" Width="1.5" PointX="7.625" PointY="6.75" />
+        <EntityTypeShape EntityType="OAModel.Department" Width="1.5" PointX="3" PointY="10.375" />
+        <EntityTypeShape EntityType="OAModel.FileInfo" Width="1.5" PointX="9.625" PointY="6.75" />
+        <EntityTypeShape EntityType="OAModel.KeyWordsRank" Width="1.5" PointX="11.625" PointY="6.75" />
+        <EntityTypeShape EntityType="OAModel.R_UserInfo_ActionInfo" Width="1.5" PointX="5.25" PointY="5.375" />
+        <EntityTypeShape EntityType="OAModel.RoleInfo" Width="1.5" PointX="3" PointY="7" />
+        <EntityTypeShape EntityType="OAModel.SearchDetails" Width="1.5" PointX="9.625" PointY="9.75" />
+        <EntityTypeShape EntityType="OAModel.WF_Instance" Width="1.5" PointX="7.875" PointY="1.5" />
+        <EntityTypeShape EntityType="OAModel.WF_StepInfo" Width="1.5" PointX="10.125" PointY="1" />
+        <EntityTypeShape EntityType="OAModel.WF_Temp" Width="1.5" PointX="5.625" PointY="1.625" />
+        <AssociationConnector Association="OAModel.FK_ActionInfoR_UserInfo_ActionInfo" />
+        <AssociationConnector Association="OAModel.FK_UserInfoR_UserInfo_ActionInfo" />
+        <AssociationConnector Association="OAModel.FK_WF_InstanceWF_StepInfo" />
+        <AssociationConnector Association="OAModel.FK_WF_TempWF_Instance" />
+        <AssociationConnector Association="OAModel.DepartmentActionInfo" />
+        <AssociationConnector Association="OAModel.RoleInfoActionInfo" />
+        <AssociationConnector Association="OAModel.UserInfoDepartment" />
+        <AssociationConnector Association="OAModel.UserInfoRoleInfo" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
