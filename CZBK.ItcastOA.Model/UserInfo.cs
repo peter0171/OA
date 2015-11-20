@@ -9,6 +9,7 @@
 
 namespace CZBK.ItcastOA.Model
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -29,9 +30,11 @@ namespace CZBK.ItcastOA.Model
         public System.DateTime ModifiedOn { get; set; }
         public string Remark { get; set; }
         public string Sort { get; set; }
-    
+    [JsonIgnore]
         public virtual ICollection<R_UserInfo_ActionInfo> R_UserInfo_ActionInfo { get; set; }
+           [JsonIgnore]
         public virtual ICollection<Department> Department { get; set; }
+           [JsonIgnore]
         public virtual ICollection<RoleInfo> RoleInfo { get; set; }
     }
 }

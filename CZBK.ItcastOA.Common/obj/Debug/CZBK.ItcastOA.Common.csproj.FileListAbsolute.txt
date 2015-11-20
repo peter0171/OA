@@ -14,6 +14,11 @@ D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.Common\obj\Debu
 D:\传智讲课\0924班\OA\第二天\CZBK.ItcastOA\CZBK.ItcastOA.Common\obj\Debug\CZBK.ItcastOA.Common.csprojResolveAssemblyReference.cache
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.Common\bin\Debug\CZBK.ItcastOA.Common.dll
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.Common\bin\Debug\CZBK.ItcastOA.Common.pdb
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.Common\bin\Debug\log4net.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.Common\bin\Debug\Memcached.ClientLibrary.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.Common\bin\Debug\Newtonsoft.Json.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.Common\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.Common\bin\Debug\Memcached.ClientLibrary.pdb
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.Common\bin\Debug\Newtonsoft.Json.xml
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.Common\obj\Debug\CZBK.ItcastOA.Common.dll
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.Common\obj\Debug\CZBK.ItcastOA.Common.pdb
-D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.Common\obj\Debug\CZBK.ItcastOA.Common.csprojResolveAssemblyReference.cache

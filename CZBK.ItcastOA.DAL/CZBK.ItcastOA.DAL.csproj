@@ -52,6 +52,10 @@
     <Compile Include="UserInfoDal.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CZBK.ItcastOA.Common\CZBK.ItcastOA.Common.csproj">
+      <Project>{bdec35f8-0325-46b4-8e6e-b859d1b1883a}</Project>
+      <Name>CZBK.ItcastOA.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CZBK.ItcastOA.IDAL\CZBK.ItcastOA.IDAL.csproj">
       <Project>{9781f9ae-704a-4ee0-92d6-6a64518fc3e2}</Project>
       <Name>CZBK.ItcastOA.IDAL</Name>

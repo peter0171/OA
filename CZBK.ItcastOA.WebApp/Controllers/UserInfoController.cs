@@ -9,11 +9,11 @@ using System.Web.Mvc;
 
 namespace CZBK.ItcastOA.WebApp.Controllers
 {
-    public class UserInfoController : Controller
+    public class UserInfoController : BaseController
     {
         //
         // GET: /UserInfo/
-        IBLL.IUserInfoService UserInfoService = new BLL.UserInfoService();
+        IBLL.IUserInfoService UserInfoService { get; set; }
         public ActionResult Index()
         {
           
@@ -84,15 +84,16 @@ namespace CZBK.ItcastOA.WebApp.Controllers
         public ActionResult GetUserInfoModel()
         {
             int id = int.Parse(Request["id"]);
-           UserInfo userInfo=UserInfoService.LoadEntities(u=>u.ID==id).FirstOrDefault();
-           if (userInfo != null)
-           {
-               return Json(new{serverData=userInfo,msg="ok"}, JsonRequestBehavior.AllowGet);
-           }
-           else
-           {
-               return Json(new {msg="no"},JsonRequestBehavior.AllowGet);
-           }
+            UserInfo userInfo = UserInfoService.LoadEntities(u => u.ID == id).FirstOrDefault();
+            if (userInfo != null)
+            {
+                // return Json(new{serverData=userInfo,msg="ok"}, JsonRequestBehavior.AllowGet);
+                return Content(Common.SerializerHelper.SerializeToString(new { serverData = userInfo, msg = "ok" }));
+            }
+            else
+            {
+                return Content(Common.SerializerHelper.SerializeToString(new { msg = "no" }));
+            }
         }
         #endregion
 

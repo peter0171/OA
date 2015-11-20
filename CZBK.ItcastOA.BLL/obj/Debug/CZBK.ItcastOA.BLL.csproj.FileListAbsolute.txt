@@ -47,12 +47,14 @@ D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目�
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.BLL\bin\Debug\CZBK.ItcastOA.IDAL.dll
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.BLL\bin\Debug\CZBK.ItcastOA.Model.dll
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.BLL\bin\Debug\EntityFramework.dll
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.BLL\bin\Debug\Newtonsoft.Json.dll
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.BLL\bin\Debug\CZBK.ItcastOA.DALFactory.pdb
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.BLL\bin\Debug\CZBK.ItcastOA.DAL.pdb
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.BLL\bin\Debug\CZBK.ItcastOA.IBLL.pdb
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.BLL\bin\Debug\CZBK.ItcastOA.IDAL.pdb
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.BLL\bin\Debug\CZBK.ItcastOA.Model.pdb
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.BLL\bin\Debug\EntityFramework.xml
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.BLL\bin\Debug\Newtonsoft.Json.xml
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.BLL\obj\Debug\CZBK.ItcastOA.BLL.csprojResolveAssemblyReference.cache
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.BLL\obj\Debug\CZBK.ItcastOA.BLL.dll
