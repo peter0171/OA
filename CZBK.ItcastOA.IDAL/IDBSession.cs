@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CZBK.ItcastOA.IDAL
 {
-   public interface IDBSession
+   public partial interface IDBSession
     {
-       IUserInfoDal UserInfoDal { get; set;}
+       //IUserInfoDal UserInfoDal { get; set;}
        bool SaveChanges();
     }
 }

@@ -12,8 +12,8 @@ namespace CZBK.ItcastOA.WebApp.Controllers
     public class UserInfoController : BaseController
     {
         //
-        // GET: /UserInfo/
         IBLL.IUserInfoService UserInfoService { get; set; }
+        IBLL.IRoleInfoService RoleInfoService { get; set; }
         public ActionResult Index()
         {
           
@@ -109,6 +109,25 @@ namespace CZBK.ItcastOA.WebApp.Controllers
             {
                 return Content("no");
             }
+        }
+        #endregion
+
+
+        #region 为用户分配角色
+        public ActionResult SetUserRoleInfo()
+        {
+            int userId = int.Parse(Request["userId"]);
+            UserInfo userInfo = UserInfoService.LoadEntities(u => u.ID == userId).FirstOrDefault();
+            ViewBag.UserInfo = userInfo;
+            //查询所有的角色信息
+            short delFlag = (short)DelFlagEnum.Normarl;
+            var roleInfoList = RoleInfoService.LoadEntities(r => r.DelFlag == delFlag).ToList();
+            //找出用户已经有的角色的编号
+            var userRoleIdList = (from r in userInfo.RoleInfo
+                                  select r.ID).ToList();
+            ViewBag.AllRoleInfo = roleInfoList;
+            ViewBag.AllExtRoleId = userRoleIdList;
+            return View();
         }
         #endregion
     }

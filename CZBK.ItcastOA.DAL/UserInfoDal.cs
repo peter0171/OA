@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace CZBK.ItcastOA.DAL
 {
 
-    public class UserInfoDal : BaseDal<UserInfo>, IUserInfoDal
+    public partial  class UserInfoDal : BaseDal<UserInfo>, IUserInfoDal
     {
         //实现自己特有的方法。
 

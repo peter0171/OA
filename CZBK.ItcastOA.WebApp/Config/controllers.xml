@@ -3,7 +3,7 @@
 
   <object type="CZBK.ItcastOA.WebApp.Controllers.UserInfoController, CZBK.ItcastOA.WebApp" singleton="false" >
     <property name="UserInfoService" ref="UserInfoService" />
-    <!--<property name="RoleInfoService" ref="RoleInfoService" />-->
+    <property name="RoleInfoService" ref="RoleInfoService" />
   </object>
 
   <object type="CZBK.ItcastOA.WebApp.Controllers.LoginController, CZBK.ItcastOA.WebApp" singleton="false" >
@@ -11,9 +11,9 @@
   </object>
 
 
-  <!--<object type="CZBK.ItcastOA.WebApp.Controllers.RoleInfoController, CZBK.ItcastOA.WebApp" singleton="false" >
+  <object type="CZBK.ItcastOA.WebApp.Controllers.RoleInfoController, CZBK.ItcastOA.WebApp" singleton="false" >
     <property name="RoleInfoService" ref="RoleInfoService" />
-  </object>-->
+  </object>
 
 
 
@@ -23,3 +23,4 @@
   <!--<object type="Spring.Mvc4QuickStart.Controllers.AccountController, Spring.Mvc4QuickStart" singleton="false" />-->
   <!--<object type="Spring.Mvc4QuickStart.Controllers.ValuesController, Spring.Mvc4QuickStart" singleton="false" />-->
 </objects>
+

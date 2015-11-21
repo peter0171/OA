@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace CZBK.ItcastOA.BLL
 {
-   public class UserInfoService:BaseService<UserInfo>,IUserInfoService
+   public partial class UserInfoService:BaseService<UserInfo>,IUserInfoService
     {
 
-        public override void SetCurretnDal()
-        {
-            CurrentDal=this.GetCurrentDbSession.UserInfoDal;
-        }
+        //public override void SetCurretnDal()
+        //{
+        //    CurrentDal=this.GetCurrentDbSession.UserInfoDal;
+        //}
 
         //public void SetUserInfo()
         //{

@@ -4,7 +4,7 @@
 
   </object>
 
-  <!--<object type="CZBK.ItcastOA.BLL.RoleInfoService, CZBK.ItcastOA.BLL" singleton="false" name="RoleInfoService" >
+  <object type="CZBK.ItcastOA.BLL.RoleInfoService, CZBK.ItcastOA.BLL" singleton="false" name="RoleInfoService" >
 
-  </object>-->
+  </object>
 </objects>

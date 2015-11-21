@@ -1,0 +1,39 @@
+﻿@{
+    Layout = null;
+}
+@using CZBK.ItcastOA.Model
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>为用户分配角色</title>
+    <script src="~/Scripts/jquery-1.7.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+</head>
+<body>
+    <div>
+        为用户 @{
+            UserInfo userInfo = ViewBag.UserInfo;
+            @userInfo.UName
+        } 分配角色
+        @using (Ajax.BeginForm("SetUserRole", "UserInfo", new { }, new AjaxOptions() { HttpMethod = "post", OnSuccess = "afterSet" }, new { id = "form1" }))
+        {
+            List<RoleInfo> roleInfoList = ViewBag.AllRoleInfo;
+            List<int> roleInfoIdList = ViewBag.AllExtRoleId;
+            foreach (RoleInfo roleInfo in roleInfoList)
+            {
+                var checkName = "cba_" + roleInfo.ID;
+                if (roleInfoIdList.Contains(roleInfo.ID))
+                {
+                    <input type="checkbox" name="@checkName" value="@roleInfo.ID" checked="checked" />@roleInfo.RoleName
+                }
+                else
+                {
+                    <input type="checkbox" name="@checkName" value="@roleInfo.ID" />@roleInfo.RoleName
+                }
+            }
+        }
+    </div>
+</body>
+</html>

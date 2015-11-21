@@ -12,7 +12,7 @@ namespace CZBK.ItcastOA.DALFactory
     /// <summary>
     /// 抽象工厂：与工厂本质是一样的，都解决对象的创建问题。区别在创建对象的方式不一样，抽象工厂是通过反射的方式创建类的实例。
     /// </summary>
-   public class AbstractFactory
+   public partial class AbstractFactory
     {
        private static readonly string DalAssemblyPath = ConfigurationManager.AppSettings["DalAssemblyPath"];
        private static readonly string NameSpace = ConfigurationManager.AppSettings["NameSpace"];
@@ -20,19 +20,19 @@ namespace CZBK.ItcastOA.DALFactory
        /// 创建UserInfo的实例
        /// </summary>
        /// <returns></returns>
-       public static IUserInfoDal CreateUserInfoDal()
+      // public static IUserInfoDal CreateUserInfoDal()
+      // {
+      //     string fullClassName = NameSpace + ".UserInfoDal";//构建类的全名称.
+      //   return  CreateInstance(fullClassName) as IUserInfoDal;
+      // }
+      ///// <summary>
+      ///// 反射
+      ///// </summary>
+      ///// <param name="fullClassName"></param>
+       public static object CreateInstance(string DalAssemblyPath, string fullClassName)
        {
-           string fullClassName = NameSpace + ".UserInfoDal";//构建类的全名称.
-         return  CreateInstance(fullClassName) as IUserInfoDal;
-       }
-      /// <summary>
-      /// 反射
-      /// </summary>
-      /// <param name="fullClassName"></param>
-       public static object  CreateInstance(string fullClassName)
-       {
-          var assembly= Assembly.Load(DalAssemblyPath);//加载程序集
-          return assembly.CreateInstance(fullClassName);
+           var assembly = Assembly.Load(DalAssemblyPath);//加载程序集
+           return assembly.CreateInstance(fullClassName);
        }
 
     }

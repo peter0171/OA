@@ -12,7 +12,7 @@ namespace CZBK.ItcastOA.Model
     using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
-    
+
     public partial class UserInfo
     {
         public UserInfo()
@@ -21,7 +21,7 @@ namespace CZBK.ItcastOA.Model
             this.Department = new HashSet<Department>();
             this.RoleInfo = new HashSet<RoleInfo>();
         }
-    
+
         public int ID { get; set; }
         public string UName { get; set; }
         public string UPwd { get; set; }
@@ -30,11 +30,11 @@ namespace CZBK.ItcastOA.Model
         public System.DateTime ModifiedOn { get; set; }
         public string Remark { get; set; }
         public string Sort { get; set; }
-    [JsonIgnore]
+        [JsonIgnore]
         public virtual ICollection<R_UserInfo_ActionInfo> R_UserInfo_ActionInfo { get; set; }
-           [JsonIgnore]
+        [JsonIgnore]
         public virtual ICollection<Department> Department { get; set; }
-           [JsonIgnore]
+        [JsonIgnore]
         public virtual ICollection<RoleInfo> RoleInfo { get; set; }
     }
 }

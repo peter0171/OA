@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CZBK.ItcastOA.IDAL
 {
-   public interface IUserInfoDal:IBaseDal<UserInfo>
+   public partial interface IUserInfoDal:IBaseDal<UserInfo>
     {
        
        //定义自己特有的方法。

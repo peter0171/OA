@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace CZBK.ItcastOA.WebApp.Controllers
 {
-    public class HomeController : BaseController
+    public class HomeController :BaseController
     {
         //
         // GET: /Home/
