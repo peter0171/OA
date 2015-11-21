@@ -10,3 +10,4 @@ D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目�
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.SpringNet\obj\Debug\CZBK.ItcastOA.SpringNet.csproj.GenerateResource.Cache
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.SpringNet\obj\Debug\CZBK.ItcastOA.SpringNet.exe
 D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.SpringNet\obj\Debug\CZBK.ItcastOA.SpringNet.pdb
+D:\360Downloads\传至2015\8、基于MVC4+EF+WCF的办公自动化系统项目实战\8、基于MVC4+EF+WCF的办公自动化系统项目实战\2 内容检索、User CRUD\代码资料\CZBK.ItcastOA\CZBK.ItcastOA.SpringNet\obj\Debug\CZBK.ItcastOA.SpringNet.csprojResolveAssemblyReference.cache

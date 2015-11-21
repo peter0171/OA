@@ -7,19 +7,105 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>OA layout</title>
+    <title>OA传统布局</title>
+    <link href="~/Content/themes/default/easyui.css" rel="stylesheet" />
+    <link href="~/Content/themes/icon.css" rel="stylesheet" />
     <script src="~/Scripts/jquery-1.7.1.min.js"></script>
     <script src="~/Scripts/jquery.easyui.min.js"></script>
     <script src="~/Scripts/easyui-lang-zh_CN.js"></script>
-    <link href="~/Content/themes/default/easyui.css" rel="stylesheet" />
-    <link href="~/Content/themes/icon.css" rel="stylesheet" />
+    <style type="text/css">
+        .txt {
+            font-size: 20px;
+            color: blue;
+            font-weight: bolder;
+            float: left;
+            margin-left: 30px;
+            margin-top: 15px;
+        }
+
+        .txt1 {
+            font-size: 14px;
+            float: right;
+            margin-top: 15px;
+            margin-right: 20px;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            bindEvent();
+        });
+        function bindEvent() {
+            $(".detailLink123").click(function () {
+                var title = $(this).text();
+                var url = $(this).attr('url');
+                var isExt = $('#tt').tabs('exists', title);//判断页签是否存在
+                if (isExt) {
+                    $('#tt').tabs('select', title);
+                    return;
+                }
+                $('#tt').tabs('add', {
+                    title: title,
+                    content: createContetn(url),
+                    closable: true
+                });
+
+            });
+        }
+        function createContetn(url) {
+            var str = '<iframe src="' + url + '" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>';
+            return str;
+        }
+    </script>
 </head>
 <body class="easyui-layout">
-    <div data-options="region:'north',border:false" style="height:60px;background:#B3DFDA;padding:10px">north region</div>
-    <div data-options="region:'west',split:true,title:'West'" style="width:150px;padding:10px;">west content</div>
-    <div data-options="region:'east',split:true,collapsed:true,title:'East'" style="width:100px;padding:10px;">east region</div>
-    <div data-options="region:'south',border:false" style="height:50px;background:#A9FACD;padding:10px;">south region</div>
-    <div data-options="region:'center',title:'Center'"></div>
+    <!---------顶部布局--------------->
+    <div data-options="region:'north',border:false" style="height:73px;background:#B3DFDA;padding:10px; overflow:hidden;background-image:url('/Content/Images/bg3.png')">
+        <img src="/Content/Images/logo.gif" style="float:left" />
+        <span class="txt">传智播客OA系统</span>
+        <span class="txt1">欢迎 @ViewData["userName"] 登录</span>
+
+    </div>
+    <!---------顶部布局--------------->
+    <!--------------左侧布局-------------------->
+    <div data-options="region:'west',split:true,title:'West'" style="width:150px;padding:3px;">
+        <div class="easyui-accordion" style="width:auto;height:auto;">
+            <div title="用户管理" data-options="iconCls:'icon-ok'" style="overflow:auto;padding:5px;">
+                <a href="javascript:void(0)" class="detailLink123" url="/UserInfo/Index">用户管理</a>
+            </div>
+            <div title="角色管理" data-options="iconCls:'icon-help'" style="padding:5px;">
+                <a href="javascript:void(0)" class="detailLink123" url="/RoleInfo/Index">角色管理</a>
+            </div>
+
+        </div>
+
+    </div>
+    <!------------------左侧布局结束----------------------->
+
+
+
+    <div data-options="region:'south',border:false" style="height:20px;background:#A9FACD;padding:5px; overflow:hidden; text-align:center">版权&copy;itcast.cn</div>
+
+
+    <!--------------中间布局-------------------->
+    <div data-options="region:'center',title:'Center'">
+
+        <div class="easyui-tabs" style="width:700px;height:250px" fit="true" id="tt">
+            <div title="用户管理" style="padding:10px">
+                <iframe src="/UserInfo/Index" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
+            </div>
+            <div title="My Documents" style="padding:10px">
+                <ul class="easyui-tree" data-options="url:'tree_data1.json',method:'get',animate:true"></ul>
+            </div>
+            <div title="Help" data-options="iconCls:'icon-help',closable:true" style="padding:10px">
+                This is the help content.
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <!--------------中间结束-------------------->
 </body>
 
 </html>
