@@ -16,10 +16,11 @@
     <script src="~/Scripts/datapattern.js"></script>
     <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
     <script type="text/javascript">
-      $(function(){
-          loadData();
-          $("#addDiv").css("display", "none");
-          $("#editDiv").css("display", "none");
+        $(function () {
+            loadData();
+            $("#addDiv").css("display", "none");
+            $("#editDiv").css("display", "none");
+            $("#setRoleDiv").css("display", "none");
           //搜索
           $("#btnSearch").click(function () {
               var pars = {
@@ -30,7 +31,7 @@
           });
       });
         function loadData(pars) {
-           $('#tt').datagrid({
+            $('#tt').datagrid({
                 url: '/UserInfo/GetUserInfo',
                 title: '用户数据表格',
                 width: 700,
@@ -41,28 +42,29 @@
                 loadMsg: '正在加载用户的信息...',
                 pagination: true,//是否有分页
                 singleSelect: false,//是否单行选择
-                pageSize:5,//页大小，一页多少条数据
+                pageSize: 5,//页大小，一页多少条数据
                 pageNumber: 1,//当前页，默认的
-                pageList: [5, 10,15],
+                pageList: [5, 10, 15],
                 queryParams: pars,//往后台传递参数
                 columns: [[//c.UserName, c.UserPass, c.Email, c.RegTime
-                    { field: 'ck', checkbox: true, align: 'left', width: 50 },
-					{ field: 'ID', title: '编号', width: 80 },
-					{ field: 'UserName', title: '姓名', width: 120 },
-                     { field: 'UserPass', title: '密码', width: 120 },
-                      { field: 'Remark', title: '备注', width: 120 },
-					{ field: 'RegTime', title: '时间', width: 80, align: 'right',
-					    formatter: function (value, row, index) {
-						        return (eval(value.replace(/\/Date\((\d+)\)\//gi, "new Date($1)"))).pattern("yyyy-M-d");
-						    }
-					}
-				]],
+                       { field: 'ck', checkbox: true, align: 'left', width: 50 },
+                       { field: 'ID', title: '编号', width: 80 },
+                       { field: 'UserName', title: '姓名', width: 120 },
+                        { field: 'UserPass', title: '密码', width: 120 },
+                         { field: 'Remark', title: '备注', width: 120 },
+                       {
+                           field: 'RegTime', title: '时间', width: 80, align: 'right',
+                           formatter: function (value, row, index) {
+                               //return (eval(value.replace(/\/Date\((\d+)\)\//gi, "new Date($1)"))).pattern("yyyy-M-d");
+                           }
+                       }
+                ]],
                 toolbar: [{
                     id: 'btnDelete',
                     text: '删除',
                     iconCls: 'icon-remove',
                     handler: function () {
-                       
+
                         deleteInfo();
                     }
                 }, {
@@ -81,18 +83,62 @@
 
                         eidtInfo();
                     }
+                }, {
+                    id: 'btnSetUserRole',
+                    text: '为用户分配角色',
+                    iconCls: 'icon-edit',
+                    handler: function () {
+
+                        setUserRoleInfo();
+                    }
                 }],
             });
         }
+        //为用户分配角色
+        function setUserRoleInfo() {
+            var rows = $('#tt').datagrid('getSelections');
+            if (rows.length != 1) {
+                //alert("请选择要修改的商品！");
+                $.messager.alert("提醒", "请选择要设置角色的1条用户记录!", "error");
+                return;
+            }
+            $("#setRoleFrame").attr("src", "/UserInfo/SetUserRoleInfo/?userId=" + rows[0].ID);
+            $("#setRoleDiv").css("display", "block");
+            $('#setRoleDiv').dialog({
+                title: "为用户设置角色信息",
+                width: 300,
+                height: 300,
+                collapsible: true,
+                resizable: true,
+                modal: true,
+                buttons: [{
+                    text: '确定',
+                    iconCls: 'icon-ok',
+                    handler: function () {
+                        // $("#addForm").submit();//提交表单
+                    }
+                }, {
+                    text: '取消',
+                    handler: function () {
+                        $('#setRoleDiv').dialog('close');
+                    }
+                }]
+            });
+
+        }
+
+
+
         //编辑用户信息
         function eidtInfo() {
             var rows = $('#tt').datagrid('getSelections');
-            if (rows.length!=1) {
+            if (rows.length != 1) {
                 //alert("请选择要修改的商品！");
                 $.messager.alert("提醒", "请选择要编辑的1条记录!", "error");
                 return;
             }
-            $.post("/UserInfo/GetUserInfoModel", { "id": rows[0].ID }, function (data) {
+            $.post("/UserInfo/GetUserInfoModel", { "id": rows[0].ID }, function (serverData) {
+                var data = $.parseJSON(serverData);
                 if (data.msg == "ok") {
                     $("#txtUName").val(data.serverData.UName);
                     $("#txtUPwd").val(data.serverData.UPwd);
@@ -148,7 +194,7 @@
                 height: 300,
                 collapsible: true,
                 resizable: true,
-                modal:true,
+                modal: true,
                 buttons: [{
                     text: '确定',
                     iconCls: 'icon-ok',
@@ -171,7 +217,7 @@
                 $('#addDiv').dialog('close');
                 $('#tt').datagrid('reload');
             } else {
-                $.messager.alert("提示","添加失败","error");
+                $.messager.alert("提示", "添加失败", "error");
             }
         }
         //删除用户数据
@@ -214,41 +260,46 @@
 </head>
 <body>
     <div>
-        用户名:<input type="text" id="txtUserName" />&nbsp;&nbsp;备注<input type="text" id="txtRemark" /><input type="button" value="搜索" id="btnSearch" />
-           <table id="tt" style="width: 700px;" title="标题，可以使用代码进行初始化，也可以使用这种属性的方式" iconcls="icon-edit">
-    </table>
+        用户名:<input type="text" id="txtUserName" />&nbsp;&nbsp;备注<input type="text" id="txtUserRemark" /><input type="button" value="搜索" id="btnSearch" />
+        <table id="tt" style="width: 700px;" title="标题，可以使用代码进行初始化，也可以使用这种属性的方式" iconcls="icon-edit"></table>
     </div>
     <!---------------添加用户信息--------------------->
     <div id="addDiv">
-        @using(Ajax.BeginForm("AddUserInfo", "UserInfo", new { }, new AjaxOptions() {HttpMethod="post", OnSuccess="afterAdd"}, new {id="addForm"})){
-        <table>
-            <tr><td>用户名</td><td><input type="text" name="UName" /></td></tr>
-             <tr><td>密码</td><td><input type="text" name="UPwd" /></td></tr>
-             <tr><td>备注</td><td><input type="text" name="Remark" /></td></tr>
-             <tr><td>排序</td><td><input type="text" name="Sort" /></td></tr>
+        @using (Ajax.BeginForm("AddUserInfo", "UserInfo", new { }, new AjaxOptions() { HttpMethod = "post", OnSuccess = "afterAdd" }, new { id = "addForm" }))
+        {
+            <table>
+                <tr><td>用户名</td><td><input type="text" name="UName" /></td></tr>
+                <tr><td>密码</td><td><input type="text" name="UPwd" /></td></tr>
+                <tr><td>备注</td><td><input type="text" name="Remark" /></td></tr>
+                <tr><td>排序</td><td><input type="text" name="Sort" /></td></tr>
 
-        </table>
+            </table>
         }
     </div>
-        <!---------------添加用户信息结束--------------------->
-
-
-        <!---------------修改用户信息--------------------->
-     <div id="editDiv">
-        @using(Ajax.BeginForm("EditUserInfo", "UserInfo", new { }, new AjaxOptions() {HttpMethod="post", OnSuccess="afterEdit"}, new {id="editForm"})){
+    <!---------------添加用户信息结束--------------------->
+    <!---------------修改用户信息--------------------->
+    <div id="editDiv">
+        @using (Ajax.BeginForm("EditUserInfo", "UserInfo", new { }, new AjaxOptions() { HttpMethod = "post", OnSuccess = "afterEdit" }, new { id = "editForm" }))
+        {
             <input type="hidden" name="SubTime" id="txtSubTime" />
             <input type="hidden" name="DelFlag" id="txtDelFlag" />
             <input type="hidden" name="ID" id="txtId" />
-        <table>
-            <tr><td>用户名</td><td><input type="text" name="UName" id="txtUName" /></td></tr>
-             <tr><td>密码</td><td><input type="text" name="UPwd" id="txtUPwd" /></td></tr>
-             <tr><td>备注</td><td><input type="text" name="Remark" id="txtRemark" /></td></tr>
-             <tr><td>排序</td><td><input type="text" name="Sort" id="txtSort" /></td></tr>
+            <table>
+                <tr><td>用户名</td><td><input type="text" name="UName" id="txtUName" /></td></tr>
+                <tr><td>密码</td><td><input type="text" name="UPwd" id="txtUPwd" /></td></tr>
+                <tr><td>备注</td><td><input type="text" name="Remark" id="txtRemark" /></td></tr>
+                <tr><td>排序</td><td><input type="text" name="Sort" id="txtSort" /></td></tr>
 
-        </table>
+            </table>
         }
     </div>
 
-        <!---------------修改用户信息结束--------------------->
+    <!---------------修改用户信息结束--------------------->
+    <!-------------------设置用户的角色------------------>
+    <div id="setRoleDiv">
+        <iframe id="setRoleFrame" scrolling="no" width="100%" height="100%" frameborder="0"></iframe>
+    </div>
+
+    <!-------------------设置用户的角色结束------------------>
 </body>
 </html>

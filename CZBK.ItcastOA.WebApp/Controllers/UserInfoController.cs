@@ -9,14 +9,14 @@ using System.Web.Mvc;
 
 namespace CZBK.ItcastOA.WebApp.Controllers
 {
-    public class UserInfoController : BaseController
+    public class UserInfoController : BaseController //Controller
     {
         //
+        // GET: /UserInfo/
         IBLL.IUserInfoService UserInfoService { get; set; }
         IBLL.IRoleInfoService RoleInfoService { get; set; }
         public ActionResult Index()
         {
-          
             return View();
         }
         #region 获取用户数据
@@ -27,45 +27,46 @@ namespace CZBK.ItcastOA.WebApp.Controllers
             string name = Request["name"];
             string remark = Request["remark"];
             //构建搜索条件
-            int totalCount=0;
-            UserInfoParam userInfoParam = new UserInfoParam() {
-            
-             PageIndex=pageIndex,
-             PageSize=pageSize,
-             TotalCount=totalCount,
-             UserName=name,
-             Remark=remark
+            int totalCount = 0;
+            UserInfoParam userInfoParam = new UserInfoParam()
+            {
+
+                PageIndex = pageIndex,
+                PageSize = pageSize,
+                TotalCount = totalCount,
+                UserName = name,
+                Remark = remark
             };
-           
-           // short delFlag = (short)DelFlagEnum.Normarl;
-           //var userInfoList=UserInfoService.LoadPageEntities<int>(pageIndex, pageSize, out totalCount, c => c.DelFlag == delFlag, c => c.ID, true);
+
+            // short delFlag = (short)DelFlagEnum.Normarl;
+            //var userInfoList=UserInfoService.LoadPageEntities<int>(pageIndex, pageSize, out totalCount, c => c.DelFlag == delFlag, c => c.ID, true);
 
             var userInfoList = UserInfoService.LoadSearchEntities(userInfoParam);
-           var temp = from u in userInfoList
-                      select new { ID = u.ID, UserName = u.UName, UserPass = u.UPwd, Remark = u.Remark, RegTime = u.SubTime };
-           return Json(new { rows = temp, total = userInfoParam.TotalCount }, JsonRequestBehavior.AllowGet);
+            var temp = from u in userInfoList
+                       select new { ID = u.ID, UserName = u.UName, UserPass = u.UPwd, Remark = u.Remark, RegTime = u.SubTime };
+            return Json(new { rows = temp, total = userInfoParam.TotalCount }, JsonRequestBehavior.AllowGet);
         }
         #endregion
 
         #region 删除用户数据
         public ActionResult DeleteUserInfo()
         {
-            string strId=Request["strId"];
-           string[]strIds=strId.Split(',');
-           List<int> list = new List<int>();
-           foreach (string id in strIds)
-           {
-               list.Add(int.Parse(id));
-           }
-           if (UserInfoService.DeleteEntities(list))
-           {
-               return Content("ok");
-           }
-           else
-           {
-               return Content("no");
-           }
-              
+            string strId = Request["strId"];
+            string[] strIds = strId.Split(',');
+            List<int> list = new List<int>();
+            foreach (string id in strIds)
+            {
+                list.Add(int.Parse(id));
+            }
+            if (UserInfoService.DeleteEntities(list))
+            {
+                return Content("ok");
+            }
+            else
+            {
+                return Content("no");
+            }
+
         }
         #endregion
 
@@ -112,7 +113,6 @@ namespace CZBK.ItcastOA.WebApp.Controllers
         }
         #endregion
 
-
         #region 为用户分配角色
         public ActionResult SetUserRoleInfo()
         {
@@ -130,5 +130,6 @@ namespace CZBK.ItcastOA.WebApp.Controllers
             return View();
         }
         #endregion
+
     }
 }
