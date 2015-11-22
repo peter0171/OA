@@ -10,7 +10,9 @@ namespace CZBK.ItcastOA.IBLL
 {
    public partial interface IUserInfoService:IBaseService<UserInfo>
     {
-       bool DeleteEntities(List<int>list);
-       IQueryable<UserInfo> LoadSearchEntities(UserInfoParam userInfoSearchParam);
+        bool DeleteEntities(List<int> list);
+        IQueryable<UserInfo> LoadSearchEntities(UserInfoParam userInfoSearchParam);
+        bool SetUserOrderInfo(int userId, List<int> roleIdList);
+        bool SetUserActionInfo(int userId, int actionId, bool isPass);
     }
 }

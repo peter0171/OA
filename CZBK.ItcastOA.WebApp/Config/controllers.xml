@@ -4,6 +4,7 @@
   <object type="CZBK.ItcastOA.WebApp.Controllers.UserInfoController, CZBK.ItcastOA.WebApp" singleton="false" >
     <property name="UserInfoService" ref="UserInfoService" />
     <property name="RoleInfoService" ref="RoleInfoService" />
+    <property name="ActionInfoService" ref="ActionInfoService" />
   </object>
 
   <object type="CZBK.ItcastOA.WebApp.Controllers.LoginController, CZBK.ItcastOA.WebApp" singleton="false" >
@@ -15,7 +16,10 @@
     <property name="RoleInfoService" ref="RoleInfoService" />
   </object>
 
-
+  <object type="CZBK.ItcastOA.WebApp.Controllers.ActionInfoController, CZBK.ItcastOA.WebApp" singleton="false" >
+    <property name="ActionInfoService" ref="ActionInfoService" />
+    <property name="RoleInfoService" ref="RoleInfoService" />
+  </object>
 
   <!--intentionally do NOT register the AccountController or the ValuesController with the container; demonstrates that the underlying
   default controller factory will properly (attempt to!) resolve all controllers not registered with Spring.NET
@@ -23,4 +27,3 @@
   <!--<object type="Spring.Mvc4QuickStart.Controllers.AccountController, Spring.Mvc4QuickStart" singleton="false" />-->
   <!--<object type="Spring.Mvc4QuickStart.Controllers.ValuesController, Spring.Mvc4QuickStart" singleton="false" />-->
 </objects>
-

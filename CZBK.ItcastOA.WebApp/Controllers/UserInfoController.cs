@@ -15,6 +15,7 @@ namespace CZBK.ItcastOA.WebApp.Controllers
         // GET: /UserInfo/
         IBLL.IUserInfoService UserInfoService { get; set; }
         IBLL.IRoleInfoService RoleInfoService { get; set; }
+        IBLL.IActionInfoService ActionInfoService { get; set; }
         public ActionResult Index()
         {
             return View();
@@ -129,7 +130,66 @@ namespace CZBK.ItcastOA.WebApp.Controllers
             ViewBag.AllExtRoleId = userRoleIdList;
             return View();
         }
+        /// <summary>
+        /// 完成对用户角色的分配
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult SetUserRole()
+        {
+            int userId = int.Parse(Request["userId"]);
+            string[] Allkeys = Request.Form.AllKeys;
+            List<int> list = new List<int>();
+            foreach (string key in Allkeys)
+            {
+                if (key.StartsWith("cba_"))
+                {
+                    string k = key.Replace("cba_", "");
+                    list.Add(int.Parse(k));
+                }
+            }
+            if (UserInfoService.SetUserOrderInfo(userId, list))
+            {
+                return Content("ok");
+            }
+            else
+            {
+                return Content("no");
+            }
+        }
         #endregion
 
+        #region 为用户分配权限
+        public ActionResult SetUserActionInfo()
+        {
+            int userId = int.Parse(Request["userId"]);
+            //查询要分配权限的用户的信息
+            var userInfo = UserInfoService.LoadEntities(u => u.ID == userId).FirstOrDefault();
+            ViewBag.UserInfo = userInfo;
+            //获取所有的权限信息
+            short delFlag = (short)DelFlagEnum.Normarl;
+            var allActionList = ActionInfoService.LoadEntities(a => a.DelFlag == delFlag).ToList();
+            //获取用户已经有的权限。
+            var allActionIdList = userInfo.R_UserInfo_ActionInfo.ToList();
+            ViewBag.ActionList = allActionList;
+            ViewBag.ActionIdList = allActionIdList;
+            return View();
+
+        }
+
+        public ActionResult SetActionUser()
+        {
+            int userId = int.Parse(Request["userId"]);
+            int actionId = int.Parse(Request["actionId"]);
+            bool isPass = Request["value"] == "true" ? true : false;
+            if (UserInfoService.SetUserActionInfo(userId, actionId, isPass))
+            {
+                return Content("ok");
+            }
+            else
+            {
+                return Content("no");
+            }
+        }
+        #endregion
     }
 }

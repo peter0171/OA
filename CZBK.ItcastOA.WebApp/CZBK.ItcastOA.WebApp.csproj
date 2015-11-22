@@ -137,6 +137,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ActionInfoController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
@@ -153,7 +154,9 @@
     <Content Include="Config\controllers.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Config\service.xml" />
+    <Content Include="Config\service.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Content\Images\3DSMAX.png" />
     <Content Include="Content\Images\7_7.jpg" />
     <Content Include="Content\Images\Alien Folder.png" />
@@ -795,6 +798,9 @@
     <Content Include="Content\Site.css" />
     <Content Include="Content\lib\ligerUI\skins\icons\新建 Microsoft Office Excel 工作表.xlsx" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="MenuIcon\2014\12\18\25f3675b-95b7-4d33-9024-be07f85b31ea.jpg" />
+    <Content Include="MenuIcon\2014\12\18\73c1f662-d86c-4f74-8293-6e8e836abd01.jpg" />
+    <Content Include="MenuIcon\2014\12\18\f0f3e577-54e4-43ef-ab11-1506820f1e8a.jpg" />
     <Content Include="Scripts\datapattern.js" />
     <Content Include="Scripts\easyui-lang-zh_CN.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
@@ -812,6 +818,7 @@
     <Content Include="Scripts\knockout-2.1.0.debug.js" />
     <Content Include="Scripts\knockout-2.1.0.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
+    <Content Include="Scripts\MyAjaxForm.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="TextTemplate1.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -842,6 +849,8 @@
     <Content Include="Views\RoleInfo\Index.cshtml" />
     <Content Include="Views\RoleInfo\ShowEditInfo.cshtml" />
     <Content Include="Views\UserInfo\SetUserRoleInfo.cshtml" />
+    <Content Include="Views\ActionInfo\Index.cshtml" />
+    <Content Include="Views\ActionInfo\SetActionRole.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

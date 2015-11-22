@@ -7,4 +7,8 @@
   <object type="CZBK.ItcastOA.BLL.RoleInfoService, CZBK.ItcastOA.BLL" singleton="false" name="RoleInfoService" >
 
   </object>
+
+  <object type="CZBK.ItcastOA.BLL.ActionInfoService, CZBK.ItcastOA.BLL" singleton="false" name="ActionInfoService" >
+
+  </object>
 </objects>

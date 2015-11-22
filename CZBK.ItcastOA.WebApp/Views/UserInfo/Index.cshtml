@@ -94,6 +94,7 @@
                 }],
             });
         }
+
         //为用户分配角色
         function setUserRoleInfo() {
             var rows = $('#tt').datagrid('getSelections');
@@ -116,6 +117,8 @@
                     iconCls: 'icon-ok',
                     handler: function () {
                         // $("#addForm").submit();//提交表单
+                        var childWindow = $("#setRoleFrame")[0].contentWindow;
+                        childWindow.subForm();
                     }
                 }, {
                     text: '取消',
@@ -126,7 +129,6 @@
             });
 
         }
-
 
 
         //编辑用户信息

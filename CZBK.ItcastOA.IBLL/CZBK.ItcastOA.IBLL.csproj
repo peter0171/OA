@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IActionInfoService.cs" />
     <Compile Include="IBaseService.cs" />
     <Compile Include="IManager.cs">
       <AutoGen>True</AutoGen>

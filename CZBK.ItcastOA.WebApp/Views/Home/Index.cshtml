@@ -16,7 +16,7 @@
         $(function () {
             $("#layout1").ligerLayout({
                 allowTopResize: false,
-                topHeight:65
+                topHeight: 65
             });
         });
     </script>
@@ -167,7 +167,7 @@
     var links = [
             { icon: '/Content/lib/images/3DSMAX.png', title: '用户管理', url: '/UserInfo/Index' },
             { icon: '/Content/lib/images/3DSMAX.png', title: '角色管理', url: '/RoleInfo/Index' },
-            { icon: '/Content/lib/images/3DSMAX.png', title: '多表头', url: '../grid/mulheader/grid2.htm' },
+            { icon: '/Content/lib/images/3DSMAX.png', title: '权限管理', url: '/ActionInfo/Index' },
             { icon: 'images/Program Files Folder.png', title: '固定列', url: '../grid/frozen/frozengrid.htm' },
             { icon: 'images/Program Files Folder.png', title: '可拖动', url: '../base/drag.htm' },
             { icon: 'images/Alien Folder.png', title: '树', url: '../tree/draggable.htm' },
@@ -180,7 +180,7 @@
     ];
 
     function onResize() {
-        var linksHeight = $(window).height() - TASKBARHEIGHT-70;
+        var linksHeight = $(window).height() - TASKBARHEIGHT - 70;
         var winlinks = $("#winlinks");
         winlinks.height(linksHeight);
         var colMaxNumber = parseInt(linksHeight / LINKHEIGHT);//一列最多显示几个快捷方式

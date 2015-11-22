@@ -12,8 +12,6 @@ namespace CZBK.ItcastOA.WebApp.Controllers
     {
         //
         // GET: /RoleInfo/
-
-        // GET: /RoleInfo/
         IBLL.IRoleInfoService RoleInfoService { get; set; }
         public ActionResult Index()
         {
